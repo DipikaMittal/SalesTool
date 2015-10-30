@@ -9,6 +9,7 @@ public Class RecordAccess {
         
         if(ApexPages.currentPage().getParameters().get('clone')=='1') {
             isClone = true;
+            system.debug('TESTING');
         }     
     }
 
